@@ -1,0 +1,50 @@
+div.quadro {
+   position: relative;
+   background-image: url('Fantasy Wallpaper.jpg');
+   width: 100%;
+   max-width: 600px;
+   margin: auto;
+   text-align: center;
+}
+
+.linha {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background: gray;
+  border: 1px solid gray;
+  border-radius: 0;
+  size: 1;
+  opacity: 0;
+  position: relative;
+  margin: inherit;
+  
+  }
+
+.dica {
+ color: white;
+ font-size: 25px;
+}
+
+
+
+div.ul { 
+  position: relative;
+  width: 100%;
+  margin: inherit;
+ 
+  
+  
+}
+
+div.li {
+  width: 20%;
+  float: left;
+  text-align: left;
+  margin-right: 10%;
+}
+
+
+h1 {
+ color: white;
+}
