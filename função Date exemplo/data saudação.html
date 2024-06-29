@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var semana = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"];
+var meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho","Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+
+var data = new Date();
+var dia = data.getDate();
+var ano = data.getFullYear();
+
+var h = data.getHours();
+var m = data.getMinutes();
+
+var diasemana =semana[data.getDay()];
+var mes = meses[data.getMonth()];
+
+  if (h >= 6 && h < 12) { 
+    alert('Bom dia! Hoje é ' + diasemana +', '+dia+' de '+mes+' de '+ano+' - '+h+':'+m+'hs.');
+  } else if (h >= 12 && h < 18) { 
+    alert ('Boa tarde! Hoje é ' + diasemana +', '+dia+' de '+mes+' de '+ano+' - '+h+':'+m+'hs.');
+  } else if (h >= 18) { 
+    alert( 'Boa noite! Hoje é ' + diasemana +', '+dia+' de '+mes+' de '+ano+' - '+h+':'+m+'hs.');
+  }
+</script>
+
+</body>
+</html>
